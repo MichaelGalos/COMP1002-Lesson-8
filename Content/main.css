@@ -40,3 +40,18 @@ h6 {
 p {
 	line-height: 1.3em;
 }
+
+/* styles that target main */
+main {
+	background-color: lightgray;
+}
+
+strong em {
+	color: red;
+}
+
+.firstWord {
+	font-style: italic;
+	font-weight: bold;
+	color: blue;
+}
