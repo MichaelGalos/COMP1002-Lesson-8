@@ -46,8 +46,20 @@ main {
 	background-color: lightgray;
 }
 
+strong {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
 strong em {
 	color: red;
+}
+
+.normal {
+	font-weight: normal!important;
+	font-style: normal!important;
+	line-height: 1em!important;
+	color: black!important;
 }
 
 .firstWord {
@@ -55,3 +67,15 @@ strong em {
 	font-weight: bold;
 	color: blue;
 }
+
+.border {
+	border-style: solid;
+	border-color: red;
+	border-top: 2px;
+	border-right: 2px;
+	border-bottom: 2px;
+	border-left: 2px;
+	
+}
+
+
